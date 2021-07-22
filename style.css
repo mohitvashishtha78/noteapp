@@ -198,7 +198,7 @@ button:hover, .color-box:hover {
 .pink {
   background-color: #a8a8a8;
 }
-html{
+body{
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%,  #a832a4 50%);
   min-height: 1000px;

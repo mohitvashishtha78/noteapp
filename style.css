@@ -8,6 +8,13 @@ header {
   background-color: #070001;
   color: red;
 }
+body{
+  background-image: url('img2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+} 
+
 
 footer {
   display: flex;

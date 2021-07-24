@@ -42,12 +42,14 @@
         </div>
       </noteList>
       <notepad>
+        <form action="http://localhost:8080/noteapp-main/Notes" method="post">
         <div id="note-title">
-          <input id="title-field" type="text" placeholder="Title your note here">
+          <input id="title-field" type="text" name="title-field" placeholder="Title your note here">
         </div>
         <div id="note-body">
-          <textarea id="body-field"></textarea>
+          <textarea id="body-field" name="body-field"></textarea>
         </div>
+      </form>
       </notepad>
     </main>
     <footer>

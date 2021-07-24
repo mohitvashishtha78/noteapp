@@ -8,16 +8,17 @@
 <body class="login">
     <div class="container box">
         <h1>Login</h1>
-        <form action="" method="post">
+        <form action="http://localhost:8080/noteapp-main/Login" method="post">
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                <label for="email">Email address</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                <label for="text">Username</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" id="password" placeholder="Password">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                 <label for="password">Password</label>
             </div>
             <button class="btn btn-dark">Login</button>
+            <center><p>Don't have an account?<a href="reg.html">Sign up</a></p></center>
         </form>
     </div>
 </body>
